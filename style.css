@@ -54,13 +54,18 @@ li{
 
 
 /* ......menu & logo start....*/
-.navbar {
+.header-area {
+	position: fixed;
 	width: 100%;
+	background-color: white;
+}
+.navbar {
+	
 	height: 70px;
 	overflow: hidden;
 	line-height: 70px;
 	background: #fff;
-	position: fixed;
+	
 	left: 0;
 }
 .logo img {
@@ -446,16 +451,17 @@ width: 150px;
 .post-test h1{
 	font-size: 35px;
 }
-.post-area{
+.post-area {
 	display: flex;
+	width: 100%;
 }
 .post-e {
 	padding: 19px;
-	width: 31%;
+	
 	/* overflow: hidden; */
 }
 .post-e .card-header img {
-	width: 362px;
+	width: 101.333%;
 	
 	transition: .5s;
 }
@@ -636,10 +642,14 @@ color: #000000;
 	background-color: #f9f9f9;
 	padding: 80px 0;
 }
-.promo-vedio {
+.promo-video {
 	/* display: table-row-group; */
 	display: flex;
 	justify-content: center;
+}
+.promo-video video{
+width: 450px;
+height: 350px;
 }
 .prmo-section {
 	padding: 80px 0;
@@ -661,6 +671,10 @@ color: #000000;
 .call-to-action p{
 	font-size: 31px;
 	color:white;
+
+}
+.content-1 {
+	padding-bottom: 80px;
 }
 .content-1 h1 {
 	font-size: 35px;
@@ -678,7 +692,7 @@ color: #000000;
 }
 .Gallery {
 	display: flex;
-	padding-top: 56px;
+	
 	margin: 0 10px 0 10px;
 }
 .team-post{
