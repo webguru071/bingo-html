@@ -1,0 +1,716 @@
+/*html,body{
+	height: 100%;
+}*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	font-family: "Catamaran", sans-serif;
+	line-height: 64px;
+	font-weight: 600;
+	
+	
+}
+.section{
+	padding: 100px 0;
+}
+.blog{
+	padding: 70px 0px 110px 0px;
+}
+p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+
+}
+ul{
+	list-style: none;
+}
+a{ text-decoration: none;
+	margin: 0;
+}
+li{
+	margin:0 0;
+}
+.container{
+	width:1200px;
+	margin:0 auto;
+}
+
+
+
+
+
+/* ......menu & logo start....*/
+.navbar {
+	width: 100%;
+	height: 70px;
+	overflow: hidden;
+	line-height: 70px;
+	background: #fff;
+	position: fixed;
+	left: 0;
+}
+.logo img {
+	width: 60px;
+	float: left;
+	padding: 27px;
+}
+.menu{
+	float: right;
+
+
+}
+.menu li{
+	float: left;
+	width: 120px;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	list-style: none;
+}
+.menu li a{
+	text-decoration: none;
+	color:#000;
+	padding: 10px;
+}
+.menu li:hover{
+	background-color: red;
+
+}
+.menu li a:hover{
+	color:#fff;
+}
+
+
+/*..............menu-end..............*/
+/*..............banner-info start.............*/
+.banner-inner {
+	margin-top: 171px;
+}
+.banner-inner p {
+	margin-top: 12px;
+	font-size: 14px;
+}
+
+.banner-inner h1 {
+	font-size: 61px;
+	color: #fff;
+	font-weight: bold;
+	width: 75%;
+	margin: 0 auto;
+	letter-spacing: 3px;
+	font-family: "Catamaran", sans-serif;
+	line-height: 62px;
+}
+.banner-inner a{
+	text-decoration: none;
+}
+.btn {
+	background-color: #28ABE3;
+	padding: 16px 55px 16px 55px;
+	border-radius: 27px;
+	color: white;
+	font-size: 11px;
+	/* font-weight: 200; */
+	text-align: center;
+	line-height: 10px;
+	padding: 13px 30px;
+}
+.btn-ex {
+	margin: 35px 0 0 0;
+}
+ .cont-2 ul li::before{
+	font-family: "Font Awesome 5 Free"; 
+	font-weight: 900; 
+	content: "\f56b";
+	padding-right: 10px;
+}
+/*....BannerInfo End....*/
+
+
+/*.....offer area start....*/
+.banner {
+	
+}
+.offer {
+	
+	margin-bottom: 50px;
+}
+
+.offer p{
+	text-align: center;
+	color: #777777;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 17px;
+	margin-top: 0;
+}
+.border {
+	border: 1px solid #28ABE3;
+	width: 80px;
+	margin: 20px auto 20px;
+}
+.offer h1 {
+	text-align: center;
+	/* font-size: 21; */
+	font-size: 35px;
+	/* font-style: normal; */
+	/* font-weight: ; */
+	color: #232323;
+}
+/*.....Banner area End....*/
+
+/*.......content Area start..............*/
+.content{
+	width: 100%;
+	height: 623px;
+	display: flex;
+    flex-wrap: wrap;
+
+}
+.content1{
+	width: 30%;
+	 
+}
+.content2 {
+	width: 70%;
+	
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.post {
+	width: 41%;
+	border: 1px solid #eee;
+	margin: 19px;
+	text-align: center;
+	padding: 50px 15px;
+	text-align: center;
+}
+
+.post p {
+	font-size: 17px;
+	margin: 0;
+	color: #939395;
+}
+
+.post:hover {
+	box-shadow: 0px 12px 19px -11px #567;
+	transition: .3s;
+}
+.post i {
+	background: #57CCF2;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	border-radius: 50px;
+	color: #fff;
+	transition: .4s;
+}
+.post:hover i {
+	background-color: #fff;
+	color: #57CCF2;
+	box-shadow: 0 0 10px 0 #00000036;
+}
+/*.......content Area End..............*/
+/*............bingo-agency section start.........*/
+
+.bingo-agency {
+	background-color: #F7F7F7;
+}
+.more-learn {
+	display: flex;
+}
+.cont-2 ul {padding: 0;
+	margin: 0 0;
+	
+	
+
+	
+}
+.cont-2 ul li i {
+	padding-right: 16px;
+}
+
+.cont-2 ul li {
+	margin-bottom: 21px;
+	color: #777777;
+	padding-left: 40px;
+	display: flex;
+}
+.cont-2 ul {
+	padding: 0;
+	margin: 0 0;
+	line-height: 21px;
+}
+.button {
+	background-color: #28ABE3;
+	padding: 10px;
+	color: white;
+	border-radius: 23px;
+	width: 122px;
+	margin-left: 27px;
+	text-align: center;
+}
+.cont-2 {
+	padding: 0px 72px;
+}
+/*............bingo-agency section End.........*/
+/*............Create Something Together section start.........*/
+.bingo-img {
+	width: 100%;
+	
+	background-image: url(img/bg-2.jpg);
+	background-size: cover;
+}
+.cont-bingo {
+	color: white;
+	text-align: center;
+	
+	
+}
+.cont-bingo p{
+	margin-bottom: 20px;
+}
+.cont-bingo h1 {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 35px;
+}
+.cont-bingo p{
+	font-size: 17px;
+	font-family:"Catamaran", sans-serif;
+	padding: 20px 0;
+}
+.btn1 {
+	background-color: #28ABE3;
+	padding: 16px 22px 16px 22px;
+	border-radius: 27px;
+	width: 115px;
+	height: 14px;
+	color: white;
+	
+	font-size: 14px;
+	font-weight: 200;
+	text-align: center;
+	line-height: 14px;
+	margin-top: 23px;
+}
+
+/*............Create Something Together section End.........*/
+
+
+/*......award-win section start......*/
+/*.award {
+	padding: 195px;
+	text-align: center;
+	margin-top: -80px;
+}*/
+.award h1 {
+	font-size: 35px;
+	font-weight: bold;
+}
+.award p {
+	color: #848484;
+	font-size: 15px;
+	margin: 0 90px 0 90px;
+	text-align: center;
+	line-height: 21px;
+	letter-spacing: 1px;
+
+}
+.award {
+	text-align: center;
+}
+/*......award-win section End......*/
+
+/*......testimonial section start......*/
+
+
+
+
+.btn2 img {
+	border-radius: 140px;
+	background-color: #567;
+	width: 150px;
+	height: auto;
+	margin-left: 519px;
+}
+.name{
+	color: #333333;
+}
+.name h3 {
+	line-height: 29px;
+	text-align: center;
+	
+}
+
+
+.testimonial-area {
+	text-align: center;
+	background-color: #28ABE3;
+    height: 400px;
+}
+.test-icon i {
+	font-size: 60px;
+	color: white;
+	display: inline-block;
+	/* margin: 48px; */
+	margin-top: 92px;
+}
+
+.test-para {
+	line-height: 29px;
+	color: white;
+}
+.test-para p {
+	
+	font-size: 16px;
+	padding: 27px 0;
+}
+.test-color {
+	height: 230px;
+	
+
+}
+.test-img {
+	margin-top: 31px;
+}
+.test-img img{
+border-radius: 136px;
+height: 150px;
+width: 150px;
+}
+
+
+.test-author {
+	color: #333333;
+	line-height: 0px;
+}
+.test-author h3 {
+	
+
+}
+.sectionf {
+	padding-bottom: 247px;
+}
+/*......testimonial section end......*/
+/*................abutUs banner..................*/
+.banner-two {
+	background-image:url(img/about-header.jpg);
+	background-repeat:no-repeat;
+	text-align: center;
+	display: flex;
+	background-position: top;
+	background-size: cover;
+
+}
+.about-banner-area{
+	margin-top: 70px;
+}
+.about-banner-inner{
+	padding: 100px 0;
+}
+.about-banner-inner h2 {
+	font-size: 38px;
+	color: #fff;
+
+	width: 75%;
+	margin: 0 auto;
+
+	font-family: "Catamaran", sans-serif;
+	line-height: 62px;
+}
+/*......latest post section start ..............*/
+.post-test {
+	text-align: center;
+	padding-bottom: 46px;
+}
+.post-test p {
+	color: #848484;
+	font-size: 17px;
+}
+.post-test h1{
+	font-size: 35px;
+}
+.post-area{
+	display: flex;
+}
+.post-e {
+	padding: 19px;
+	width: 31%;
+	/* overflow: hidden; */
+}
+.post-e .card-header img {
+	width: 362px;
+	
+	transition: .5s;
+}
+.post-e .card-header img:hover{
+	opacity: 0.5;
+}
+.latest-post {
+	
+	background-color: #f6f6f6;
+}
+.card-footer {
+	
+	background-color: #fff;
+	padding: 21px;
+}
+.card-footer p {
+	color: #757575;
+	text-align: left;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 13px;
+	letter-spacing: 0px;
+}
+.card-footer h2 {
+	font-size: 16px;
+	text-align: center;
+	font-weight: normal;
+	line-height: 29px;
+}
+.card-footer h1 {
+	font-family: "Catamaran", sans-serif;
+	font-weight: 600px;
+	letter-spacing: 0px;
+	font-weight: 653;
+	font-size: 22px;
+	text-align: center;
+	text-align: 6px;
+	line-height: 33px;
+}
+.card-footer h3 {
+	font-family: "Catamaran", sans-serif;
+	font-weight: 600px;
+	letter-spacing: 0px;
+	font-weight: 653;
+	font-size: 22px;
+}
+.card-header {
+	background-color: #fff;
+	overflow: hidden;
+}
+.btn-read {
+	background-color: #28ABE3;
+	padding: 16px 16px 16px 16px;
+	border-radius: 27px;
+	width: 94px;
+	height: 14px;
+	font-size: 13px;
+	margin: 30px 0px 34px 0px;
+	text-align: center;
+}
+.btn-read a{
+	text-decoration: none;
+	color: white;
+
+}
+/*....latest post section end............*/
+
+.top-footer {
+	width: 100%;
+	display: flex;
+	padding: 117px 0px;
+	color: white;
+	background-color: #222222;
+}
+.colum h1{
+	letter-spacing: 2px;
+}
+.colum{
+	width:25%;
+	
+}
+.colum ul{
+	padding: 0px 0px;
+	margin: 0px 0px;
+
+}
+.footer {
+	background-color: #222222;
+}
+.bottom-footer{
+	text-align: center;
+	background-color: #1B1B1B;
+	color: white;
+	padding: 40px 0px;
+}
+.bottom-footer h1 {
+	font-size: 13px;
+	line-height: 27px;
+	letter-spacing: 3px;
+	font-weight: normal;
+	color:#888888;
+}
+.colum h1{
+	font-weight:normal;
+	font-size: 16px; 
+}
+.colum ul li {
+	color: #bdbdbd;
+	font-size: 16px;
+	line-height: 26px;
+}
+.colum ul li a{
+	color:#bdbdbd;
+}
+/*.......................start about page........................*/
+.about-section{
+	padding: 80px;
+}
+
+
+
+.about-company{
+	display: flex;
+}
+.about-1 {
+	width: 50%;
+	padding: 0 30px 0 17px;
+	margin-top: 17px;
+}
+.about-1 ul{
+	padding: 0;
+	margin: 0 0;
+	line-height: 21px;
+}
+.about-1 ul li {
+	padding-top: 10px;
+	color: #848484;
+}
+}
+.about-1 p{ color: black;
+	padding:30px;
+
+
+}
+.about-1 h1 {
+	font-size: 34px;
+	line-height: 45px;
+}
+
+.about-2 img{
+width:100%;
+}
+.about-2{
+	width: 50%;
+}
+.mission{
+	width: 50%;
+}
+.mission-head p{
+color: #000000;
+}
+.vision{
+	width:50%;
+}
+.vision-footer img{
+	width: 100%;
+}
+.mission-head p {
+	color: #848484;
+	font-size: 16px;
+	text-align: left;
+	line-height: 23px;
+	margin-bottom: 32px;
+}
+.company{
+	display: flex;
+}
+.company-section{
+	background-color: #f9f9f9;
+	padding: 80px 0;
+}
+.promo-vedio {
+	/* display: table-row-group; */
+	display: flex;
+	justify-content: center;
+}
+.prmo-section {
+	padding: 80px 0;
+}
+/*..................<<<<<<<<<<<<<<<<<<<<<< call-to-action section start>>>>>>>>>>>>>>>>>>>>......................*/
+
+.action-img{
+	width: 100%;
+
+	background-image: url(img/call-to-action-bg.jpg);
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+
+}
+.call-to-action{
+	padding: 140px 0px;
+}
+.call-to-action p{
+	font-size: 31px;
+	color:white;
+}
+.content-1 h1 {
+	font-size: 35px;
+	text-align: center;
+	color: #232323;
+}
+.content-1 p {
+	font-size: 16px;
+	color: #848484;
+
+}
+.img1 {
+	width: 20%;
+	overflow: hidden;
+}
+.Gallery {
+	display: flex;
+	padding-top: 56px;
+	margin: 0 10px 0 10px;
+}
+.team-post{
+	display: flex;
+}
+.team{
+	background-color: #F6F6F6;
+	padding: 80px 0;
+}
+.card-footer h1{
+font-family: "Catamaran", sans-serif;
+font-weight: 600px;
+letter-spacing: 0px;
+font-weight: 653;
+font-size: 22px;
+text-align: center;
+}
+.card-footer h2{
+	font-size: 16px;
+	text-align: center;
+
+}
+.banner-one {
+	background-image:url(img/slider-bg-1.jpg);
+	background-repeat:no-repeat;
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	background-position: top;
+	background-size: cover;
+}
+
+
+
+
