@@ -66,17 +66,17 @@ li{
 	line-height: 70px;
 	background: #fff;
 	
-	left: 0;
 }
 .logo img {
 	width: 60px;
-	float: left;
+	
 	padding: 27px;
 }
-.menu{
+.logo{
+	float: left;
+}
+.navbar-links {
 	float: right;
-
-
 }
 .menu li{
 	float: left;
