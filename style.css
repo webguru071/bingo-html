@@ -80,17 +80,17 @@ li{
 	float: right;
 }
 .menu li{
-	float: left;
-	width: 120px;
-	height: 70px;
+	display: inline;
 	line-height: 70px;
 	text-align: center;
 	list-style: none;
 }
-.menu li a{
+.menu li a {
 	text-decoration: none;
-	color:#000;
-	padding: 10px;
+	color: #000;
+	padding: 14px;
+	display: inline-block;
+	line-height: 49px;
 }
 .menu li:hover{
 	background-color: red;
@@ -98,6 +98,7 @@ li{
 }
 .menu li a:hover{
 	color:#fff;
+	background-color: red;
 }
 
 
