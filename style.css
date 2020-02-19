@@ -58,6 +58,7 @@ li{
 	position: fixed;
 	width: 100%;
 	background-color: white;
+	z-index: 1;
 }
 .navbar {
 	
@@ -203,7 +204,7 @@ li{
 	margin: 19px;
 	text-align: center;
 	padding: 50px 15px;
-	text-align: center;
+	
 }
 
 .post p {
@@ -418,16 +419,25 @@ width: 150px;
 	background-image:url(img/about-header.jpg);
 	background-repeat:no-repeat;
 	text-align: center;
-	display: flex;
-	background-position: top;
 	background-size: cover;
-
+    padding: 240px 0 70px;
+    position: relative;
 }
+.banner-two::before{
+background:rgba(0, 0, 0, 0.5);
+position: absolute;
+content: '';
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+}
+.ba
 .about-banner-area{
 	margin-top: 70px;
 }
 .about-banner-inner{
-	padding: 100px 0;
+	
 }
 .about-banner-inner h2 {
 	font-size: 38px;
@@ -617,13 +627,15 @@ width:100%;
 	width: 50%;
 }
 .mission{
-	width: 50%;
+	
+	padding: 20px;
 }
 .mission-head p{
 color: #000000;
 }
 .vision{
-	width:50%;
+	
+	padding: 20px;
 }
 .vision-footer img{
 	width: 100%;
@@ -726,5 +738,70 @@ text-align: center;
 }
 
 
+/*service section start*/
 
+.service-area{
+	padding: 100px 0;
+}
+.service1{
+	width: 100%;
+	display: flex;
+}
+.service2{
+	width: 100%;
+	display: flex;
+}
+.service-blue{
+background-color:#28ABE3;
+padding: 59px 20px;
+color:#fff;
+}
+.service-white {
+	background-color: #fff;
+	padding: 59px 20px;
+}
+.service-white h1{
+	color: #333333;
+}
+.service-white .icon i{
+	color:#28ABE3; 
+}
+.service-white p{
+color: #6F7991;
+}
+.icon{
+	text-align: center;
+	font-size: 63px;
+}
+.icon-text {
+	text-align: center;
+}
+.icon-text p {
+	font-size: 16px;
+}
 
+/*................section plan................*/
+.plan{
+	background-image: url(img/pricing-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.price{
+	width: 100%;
+	display: flex;
+	
+}
+
+.price-item{
+	background-color:#fff;
+}
+.item-price p{
+	text-align: left;
+}
+.item-price {
+	color: black;
+}
+.item-menu ul li{
+	color: white;
+}
