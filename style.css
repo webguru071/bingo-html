@@ -911,6 +911,13 @@ color: #6F7991;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	padding: 100px;
+}
+.item-menu ul li::before {
+	content: "\f105";
+	font-family: "Font Awesome 5 Free"; 
+	font-weight: 900; 
+	
 }
 .price{
 	width: 100%;
@@ -920,13 +927,29 @@ color: #6F7991;
 
 .price-item{
 	background-color:#fff;
+	padding: 40px 55px 65px;
 }
-.item-price p{
+.item-price p {
 	text-align: left;
+	color: #848484;
+	font-size: 14px;
+}
+.item-price h1 {
+	font-size: 50px;
+	color: #28ABE3;
+	font-size: 50px;
+	padding: 10px 0;
 }
 .item-price {
 	color: black;
+	padding: 10px 0px;
 }
-.item-menu ul li{
-	color: white;
+.item-menu ul li {
+	color: #848484;
+	font-size: 14px;
+	line-height: 46px;
+}
+.price-item {
+	background-color: #fff;
+	margin: 20px;
 }
