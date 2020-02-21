@@ -84,6 +84,8 @@ li{
 	line-height: 70px;
 	text-align: center;
 	list-style: none;
+
+	transition: all .25s;
 }
 .menu li a {
 	text-decoration: none;
@@ -91,6 +93,7 @@ li{
 	padding: 14px;
 	display: inline-block;
 	line-height: 49px;
+	transition: all .25s;
 }
 .menu li:hover{
 	background-color: red;
@@ -953,3 +956,86 @@ color: #6F7991;
 	background-color: #fff;
 	margin: 20px;
 }
+/*....skill section.....*/
+.content-area{
+	display: flex;
+}
+.start p {
+	color: #848484;
+	text-align: left;
+	margin: 25px 0px;
+	font-size: 17px;
+}
+.progress-bar p {
+	color: #848484;
+	text-align: left;
+	font-size: 17px;
+}
+.progress-bar {
+	/* padding: 40px; */
+	margin-left: 20px;
+    background: #28ABE3;
+
+}
+.start h1{
+	line-height: 23px;
+}
+.start {
+	width: 50%;
+	margin-right: 107px;
+}
+.skill{
+	padding: 100px 0;
+}
+.progress-block {
+	width: 50%;
+	margin-top: 28px;
+}
+span{
+	margin:0;
+}
+.progress {
+	height: 10px;
+	width: 100%;
+	background: #838383;
+	margin: 10px 0 10px 0px;
+}
+.btn2{
+	margin-top: 40px;
+}
+.btn-p {
+	padding: 20px 40px 20px 40px;
+}
+
+/*...........portfolio start from here ...........*/
+
+.sub-menu li {
+	display: inline;
+	line-height: 6px;
+	text-align: center;
+	list-style: none;
+}
+.sub-menu li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 14px;
+	display: inline-block;
+	font-size: 12px;
+	background: #789;
+}
+.sub-menu {
+	justify-content: center;
+	display: flex;
+	padding: 27px 0px 46px 0px;
+}
+.portfolio-img{
+	display: flex;
+}
+.portfolio-img img{
+
+}
+
+
+
+
+
